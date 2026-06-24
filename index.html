@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Jasa Cuci & Sol Sepatu Surabaya 24 Jam | Singhasari Laundry</title>
+    <meta name="description" content="Cari laundry sepatu terdekat di Surabaya? Singhasari Shoes melayani cuci express 6 jam, sol jebol, & repaint. Buka 24 jam, bisa antar jemput. Diskon mahasiswa!">
+    <meta name="keywords" content="Jasa sol sepatu Surabaya, tukang lem sepatu, reparasi sepatu jebol, laundry sepatu 24 jam, cuci sneakers terdekat, antar jemput cuci sepatu">
+    <meta name="theme-color" content="#090a0c">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        /* AURA.BUILD EXACT TEMPLATE VARIABLES & VANILLA CSS - ZERO BLOAT */
+        :root {
+            --bg: #090a0c;
+            --bg-2: #0c0e12;
+            --panel: #0f1217;
+            --panel-2: #131720;
+            --line: rgba(255,255,255,.08);
+            --line-soft: rgba(255,255,255,.05);
+            --text: #f4f5f7;
+            --muted: #9598a3;
+            --faint: #8a8d98;
+            --accent: #6b7cff;      
+            --accent-2: #8e7bff;    
+            --accent-3: #4fd1e0;    
+            --r: 16px;
+            --r-lg: 24px;
+            --maxw: 1140px;
+            --font: 'Inter', system-ui, -apple-system, sans-serif;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: var(--font); background: var(--bg); color: var(--text);
+            line-height: 1.6; overflow-x: hidden; -webkit-font-smoothing: antialiased; letter-spacing: -.011em;
+        }
+        
+        ::selection { background: rgba(107,124,255,.32); }
+        a { color: inherit; text-decoration: none; }
+        h1, h2, h3, h4 { line-height: 1.1; letter-spacing: -.03em; font-weight: 700; }
+        .wrap { max-width: var(--maxw); margin: 0 auto; padding: 0 24px; }
+        
+        .accent { color: var(--accent); }
+        .grad-text {
+            background: linear-gradient(100deg, #fff 30%, #9aa6ff 70%, #67d6e6);
+            -webkit-background-clip: text; background-clip: text; color: transparent;
+        }
+        
+        /* ZERO-BLOAT SCROLL ANIMATIONS */
+        .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1); will-change: opacity, transform; }
+        .reveal.in-view { opacity: 1; transform: translateY(0); }
+
+        /* BUTTON COMPONENTS (CSS ONLY) */
+        .btn {
+            position: relative; display: inline-flex; justify-content: center; align-items: center; gap: 8px;
+            padding: 14px 28px; border-radius: 99px; font-weight: 600; font-size: 15px; cursor: pointer;
+            text-decoration: none; border: none; outline: none; transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            z-index: 1; overflow: hidden; white-space: nowrap;
+        }
+
+        .btn-glow-border {
+            background: var(--bg-2); color: #fff;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+        .btn-glow-border::before {
+            content: ''; position: absolute; inset: -2px; z-index: -2;
+            background: conic-gradient(from 0deg, transparent 0%, var(--accent-3) 25%, var(--accent) 50%, transparent 50%);
+            animation: spin-bg 3s linear infinite;
+        }
+        .btn-glow-border::after {
+            content: ''; position: absolute; inset: 2px; z-index: -1;
+            background: var(--bg-2); border-radius: 99px; transition: background 0.3s;
+        }
+        .btn-glow-border:hover { transform: scale(1.03); box-shadow: 0 10px 30px rgba(107,124,255,0.4); }
+        .btn-glow-border:hover::after { background: rgba(9,10,12,0.8); }
+        @keyframes spin-bg { 100% { transform: rotate(360deg); } }
+
+        .btn-glass {
+            background: rgba(255,255,255,0.03); color: var(--text);
+            border: 1px solid rgba(255,255,255,0.1); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+            padding: 12px 24px;
+        }
+        .btn-glass::before {
+            content: ''; position: absolute; inset: 0; z-index: -1;
+            background: linear-gradient(120deg, transparent, rgba(255,255,255,0.05), transparent);
+            transform: translateX(-100%); transition: 0.5s;
+        }
+        .btn-glass:hover {
+            background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.3);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.3), inset 0 0 15px rgba(255,255,255,0.05);
+            transform: translateY(-2px); color: #fff;
+        }
+        .btn-glass:hover::before { transform: translateX(100%); }
+
+        .btn-gradient-shadow {
+            background: linear-gradient(135deg, var(--accent), var(--accent-3));
+            color: #fff; border: 1px solid rgba(255,255,255,0.2);
+            box-shadow: 0 10px 30px -10px var(--accent); padding: 16px 36px; font-size: 16px;
+        }
+        .btn-gradient-shadow:hover {
+            box-shadow: 0 15px 40px -5px var(--accent-3); transform: translateY(-3px); filter: brightness(1.1);
+        }
+
+        .btn-outline-glow {
+            background: rgba(9,10,12,0.8); color: #fff;
+            border: 1px solid var(--accent-3); backdrop-filter: blur(4px);
+            box-shadow: 0 0 15px rgba(79,209,224,0.2), inset 0 0 10px rgba(79,209,224,0.1);
+        }
+        .btn-outline-glow:hover {
+            background: rgba(79,209,224,0.15); border-color: #fff;
+            box-shadow: 0 0 25px rgba(79,209,224,0.5), inset 0 0 20px rgba(79,209,224,0.3);
+        }
+
+        .eyebrow { display: inline-block; font-size: 13px; font-weight: 600; letter-spacing: .08em; color: var(--accent-3); margin-bottom: 16px; text-transform: uppercase; }
+        .sec-head { max-width: 680px; margin: 0 auto 56px; text-align: center; }
+        .sec-head h2 { font-size: clamp(32px, 4.5vw, 48px); margin-bottom: 18px; color: #fff; }
+        .sec-head p { color: var(--muted); font-size: 18px; font-weight: 400; line-height: 1.6; }
+
+        /* HEADER NAV */
+        header { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: rgba(9,10,12,.6); backdrop-filter: blur(20px); border-bottom: 1px solid var(--line-soft); transition: all 0.3s ease; }
+        nav { display: flex; align-items: center; justify-content: space-between; height: 74px; }
+        .logo { display: flex; align-items: center; gap: 12px; font-weight: 700; font-size: 18px; color: #fff; letter-spacing: -.02em;}
+        .logo .mark { width: 30px; height: 30px; border-radius: 8px; position: relative; background: linear-gradient(140deg, var(--accent), var(--accent-3)); box-shadow: 0 0 0 1px rgba(255,255,255,.1) inset, 0 0 20px rgba(79,209,224,0.4); }
+        .logo .mark::before { content: ""; position: absolute; inset: 8px; border-radius: 50%; background: #fff; }
+        .nav-links { display: flex; gap: 32px; font-size: 15px; font-weight: 500; color: var(--muted); }
+        .nav-links a { transition: color 0.3s; }
+        .nav-links a:hover { color: #fff; }
+        @media(max-width:880px){ .nav-links { display: none; } }
+
+        /* HERO */
+        .hero { padding: 180px 0 120px; text-align: center; position: relative; overflow: hidden; min-height: 85vh; display: flex; flex-direction: column; justify-content: center; }
+        .hero-bg { position: absolute; inset: 0; z-index: -2; background-image: url('https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?q=80&w=2000&auto=format&fit=crop'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: brightness(0.4) contrast(1.1); transform: scale(1.05); }
+        .hero-overlay { position: absolute; inset: 0; z-index: -1; background: linear-gradient(to bottom, rgba(9,10,12,0.8) 0%, rgba(9,10,12,0.6) 50%, rgba(9,10,12,1) 100%); backdrop-filter: blur(2px); }
+        .badge { display: inline-flex; align-items: center; gap: 8px; padding: 6px 16px 6px 8px; border-radius: 999px; background: rgba(255,255,255,.06); border: 1px solid rgba(255,255,255,.15); font-size: 13.5px; color: #fff; margin-bottom: 32px; backdrop-filter: blur(10px); box-shadow: 0 4px 12px rgba(0,0,0,0.2); }
+        .badge b { background: linear-gradient(120deg, var(--accent), var(--accent-3)); color: #000; font-size: 11px; font-weight: 800; padding: 4px 10px; border-radius: 999px; letter-spacing: .04em; }
+        .hero h1 { font-size: clamp(38px, 5.5vw, 72px); font-weight: 800; letter-spacing: -.04em; margin-bottom: 24px; color: #fff; text-shadow: 0 10px 30px rgba(0,0,0,0.8); }
+        .hero p.lead { font-size: clamp(17px, 2.2vw, 21px); color: rgba(255,255,255,0.9); max-width: 800px; margin: 0 auto 40px; font-weight: 400; line-height: 1.7; text-shadow: 0 4px 15px rgba(0,0,0,0.8); }
+        .hero-cta { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+
+        /* SECTIONS & ROWS */
+        .section { padding: 120px 0; position: relative; }
+        .row { display: grid; grid-template-columns: 1fr 1fr; gap: 64px; align-items: center; }
+        .row + .row { margin-top: 120px; }
+        .row.flip .copy { order: 2; }
+        .copy h2 { font-size: clamp(30px, 3.8vw, 44px); margin-bottom: 20px; color: #fff; }
+        .copy p { color: var(--muted); font-size: 17.5px; margin-bottom: 32px; line-height: 1.7; }
+        .ticks { list-style: none; display: flex; flex-direction: column; gap: 16px; }
+        .ticks li { display: flex; gap: 14px; align-items: flex-start; font-size: 16px; color: var(--muted); }
+        .ticks li b { color: #fff; font-weight: 600; }
+        .ticks svg { width: 22px; height: 22px; flex: none; margin-top: 2px; stroke: var(--accent-3); stroke-width: 2.5; fill: none; }
+        
+        .visual { border-radius: var(--r-lg); border: 1px solid rgba(255,255,255,0.1); background: rgba(255,255,255,0.02); padding: 12px; position: relative; overflow: hidden; display: flex; align-items: center; box-shadow: 0 20px 50px rgba(0,0,0,0.5); transition: transform 0.5s ease; backdrop-filter: blur(10px); }
+        .visual:hover { transform: translateY(-10px); border-color: rgba(107,124,255,0.4); }
+        .visual img { width: 100%; height: 100%; object-fit: cover; border-radius: 16px; }
+        @media(max-width:840px){ .row { grid-template-columns: 1fr; gap: 40px; } .row + .row { margin-top: 80px; } .row.flip .copy { order: 0; } }
+
+        /* GLASSMORPHIC CARD GRID */
+        .glass-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+        .glass-card { background: linear-gradient(145deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.01) 100%); border: 1px solid rgba(255,255,255,0.08); border-radius: var(--r-lg); padding: 40px 30px; backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); position: relative; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+        .glass-card::before { content: ''; position: absolute; top: 0; left: -100%; width: 50%; height: 100%; background: linear-gradient(to right, transparent, rgba(255,255,255,0.05), transparent); transform: skewX(-20deg); transition: 0.5s; }
+        .glass-card:hover { transform: translateY(-10px); border-color: rgba(107,124,255,0.5); box-shadow: 0 20px 40px rgba(0,0,0,0.4), 0 0 20px rgba(107,124,255,0.2) inset; }
+        .glass-card:hover::before { left: 150%; }
+        .glass-card .ico { width: 50px; height: 50px; border-radius: 14px; margin-bottom: 24px; display: grid; place-items: center; background: linear-gradient(135deg, rgba(79,209,224,.15), rgba(107,124,255,.15)); border: 1px solid rgba(255,255,255,0.1); box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+        .glass-card .ico svg { width: 24px; height: 24px; stroke: var(--accent-3); stroke-width: 2; fill: none; }
+        .glass-card h3 { font-size: 20px; margin-bottom: 12px; color: #fff; font-weight: 700; }
+        .glass-card p { color: var(--muted); font-size: 15.5px; line-height: 1.6; }
+        @media(max-width:960px){ .glass-grid { grid-template-columns: repeat(2, 1fr); } }
+        @media(max-width:600px){ .glass-grid { grid-template-columns: 1fr; } }
+
+        /* PRICING TABLE GLASS */
+        .pricing-wrap { background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--r-lg); overflow: hidden; backdrop-filter: blur(16px); }
+        .pr-row { display: grid; grid-template-columns: 1.5fr 2fr 1fr 1fr; padding: 20px 30px; border-bottom: 1px solid rgba(255,255,255,0.05); align-items: center; }
+        .pr-row.head { background: rgba(0,0,0,0.4); font-weight: 700; color: #fff; text-transform: uppercase; font-size: 13px; letter-spacing: 0.05em; }
+        .pr-row:last-child { border-bottom: none; }
+        .pr-row:not(.head):hover { background: rgba(255,255,255,0.04); }
+        .pr-name { color: #fff; font-weight: 600; font-size: 16px; }
+        .pr-desc { color: var(--muted); font-size: 15px; }
+        .pr-time { color: var(--accent-3); font-size: 14px; font-weight: 500; }
+        .pr-price { color: #fff; font-weight: 700; font-size: 16px; text-align: right; }
+        @media(max-width:768px){ .pr-row { grid-template-columns: 1fr; gap: 10px; padding: 20px; } .pr-row.head { display: none; } .pr-price { text-align: left; color: var(--accent); } }
+
+        /* GLASSMORPHIC TESTIMONIAL MARQUEE */
+        .testi-section { padding: 100px 0; background: radial-gradient(ellipse at center, rgba(107,124,255,0.05) 0%, transparent 70%); overflow: hidden; }
+        .testi-wrapper { position: relative; width: 100%; overflow: hidden; padding: 20px 0; mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent); -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent); }
+        .testi-track { display: flex; gap: 24px; width: max-content; animation: scroll-testi 40s linear infinite; }
+        .testi-track:hover { animation-play-state: paused; }
+        .testi-card { width: 380px; padding: 30px; border-radius: 20px; background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.08); backdrop-filter: blur(12px); display: flex; flex-direction: column; gap: 20px; transition: transform 0.3s, background 0.3s; box-shadow: 0 10px 30px rgba(0,0,0,0.2); }
+        .testi-card:hover { transform: translateY(-5px); background: rgba(255,255,255,0.04); border-color: rgba(107,124,255,0.3); }
+        .testi-stars { display: flex; gap: 4px; color: #fbbf24; }
+        .testi-stars svg { width: 18px; height: 18px; fill: currentColor; }
+        .testi-text { color: var(--text); font-size: 15px; line-height: 1.7; flex-grow: 1; font-weight: 400; }
+        .testi-user { display: flex; align-items: center; gap: 14px; border-top: 1px solid var(--line-soft); padding-top: 20px; }
+        .testi-avatar { width: 44px; height: 44px; border-radius: 50%; object-fit: cover; border: 2px solid rgba(255,255,255,0.1); }
+        .testi-info h4 { font-size: 15px; color: #fff; margin-bottom: 2px; }
+        .testi-info span { font-size: 12px; color: var(--muted); }
+        @keyframes scroll-testi { 0% { transform: translateX(0); } 100% { transform: translateX(calc(-50% - 12px)); } }
+
+        /* MOCKUP FRAME FOR MAP */
+        .shot { position: relative; margin: 0 auto; max-width: 1040px; transition: transform 0.5s ease; }
+        .shot:hover { transform: translateY(-8px); }
+        .frame { border-radius: var(--r-lg); border: 1px solid rgba(255,255,255,0.1); overflow: hidden; backdrop-filter: blur(16px); background: linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.01)); box-shadow: 0 40px 80px rgba(0,0,0,.7); }
+        .frame-bar { display: flex; align-items: center; gap: 8px; padding: 16px 24px; border-bottom: 1px solid var(--line-soft); background: rgba(0,0,0,.4); }
+        .frame-bar i { width: 12px; height: 12px; border-radius: 50%; background: rgba(255,255,255,.15); }
+        .frame-bar span { margin-left: 16px; font-size: 13.5px; color: var(--muted); font-family: monospace; }
+        .app-main { position: relative; line-height: 0; background: #000; }
+        .app-main img { width: 100%; height: auto; display: block; opacity: 0.8; transition: opacity 0.4s; }
+        .app-main:hover img { opacity: 0.4; }
+        .map-overlay { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 16px; opacity: 0; transition: opacity 0.4s; }
+        .app-main:hover .map-overlay { opacity: 1; }
+
+        /* FAQ NATIVE */
+        .faq { max-width: 780px; margin: 0 auto; }
+        details { border-bottom: 1px solid var(--line-soft); }
+        summary { width: 100%; text-align: left; background: none; border: none; color: #fff; font-size: 18px; font-weight: 600; padding: 24px 40px 24px 0; cursor: pointer; position: relative; letter-spacing: -.01em; list-style: none; transition: color 0.2s; }
+        summary:hover { color: var(--accent-3); }
+        summary::-webkit-details-marker { display: none; }
+        summary::after { content: "+"; position: absolute; right: 10px; top: 50%; transform: translateY(-50%); font-size: 24px; color: var(--accent); transition: transform .3s; font-weight: 400; }
+        details[open] summary::after { content: "−"; transform: translateY(-50%) rotate(180deg); color: var(--accent-3); }
+        .a { color: var(--muted); font-size: 16px; padding-bottom: 24px; line-height: 1.7; }
+
+        /* CTA BOX */
+        .cta-box { position: relative; text-align: center; border-radius: var(--r-lg); border: 1px solid rgba(107,124,255,.4); padding: 80px 30px; overflow: hidden; background: radial-gradient(ellipse at 50% 100%, rgba(107,124,255,.25), transparent 70%), var(--bg-2); box-shadow: 0 30px 60px rgba(0,0,0,0.6); }
+        .cta-box h2 { font-size: clamp(32px, 4.6vw, 48px); margin-bottom: 20px; color: #fff; }
+        .cta-box p { color: var(--muted); font-size: 18.5px; max-width: 540px; margin: 0 auto 40px; }
+
+        /* FOOTER */
+        footer { border-top: 1px solid var(--line-soft); padding: 80px 0 40px; background: #050608; }
+        .foot { display: grid; grid-template-columns: 1.8fr repeat(3, 1fr); gap: 50px; }
+        .foot p { color: var(--muted); font-size: 14.5px; margin-top: 18px; max-width: 320px; line-height: 1.8; }
+        .foot h4 { font-size: 14px; letter-spacing: .06em; color: #fff; margin-bottom: 20px; text-transform: uppercase; }
+        .foot a { display: block; color: var(--muted); font-size: 15px; padding: 8px 0; transition: color .2s; }
+        .foot a:hover { color: var(--accent-3); }
+        .foot-bot { display: flex; justify-content: space-between; align-items: center; margin-top: 80px; padding-top: 30px; border-top: 1px solid var(--line-soft); color: var(--faint); font-size: 13.5px; flex-wrap: wrap; gap: 15px; }
+        .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 12px;}
+        .tags span { background: rgba(255,255,255,.03); border: 1px solid var(--line-soft); padding: 8px 14px; border-radius: 8px; font-size: 13px; color: var(--muted); transition: all 0.3s; }
+        .tags span:hover { background: rgba(255,255,255,.08); color: #fff; border-color: rgba(255,255,255,0.2); }
+        @media(max-width:900px){ .foot { grid-template-columns: 1fr 1fr; } }
+        @media(max-width:500px){ .foot { grid-template-columns: 1fr; } }
+
+        .lazy-render { content-visibility: auto; contain-intrinsic-size: 1px 1000px; contain: paint; }
+
+        /* STICKY MOBILE WA */
+        .sticky-cta { position: fixed; bottom: 30px; right: 30px; z-index: 999; background: #25D366; color: #fff; padding: 15px 30px; border-radius: 50px; font-weight: 700; font-size: 16px; display: flex; align-items: center; gap: 12px; box-shadow: 0 10px 30px rgba(37, 211, 102, 0.5); border: 2px solid rgba(255,255,255,0.3); animation: pulse-wa 2s infinite; text-decoration: none; transition: transform 0.3s; }
+        .sticky-cta:hover { transform: scale(1.05); }
+        @keyframes pulse-wa { 0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); } 70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); } 100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); } }
+        @media (max-width: 768px) { body { padding-bottom: 100px !important; } .sticky-cta { bottom: 20px; right: 20px; left: 20px; justify-content: center; } }
+    </style>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "LocalBusiness",
+          "@id": "https://laundrysepatusurabaya.com/#organization",
+          "name": "Singhasari Shoes Laundry",
+          "description": "Jasa sol sepatu Surabaya & tempat laundry sepatu terdekat. Buka 24 jam dengan layanan express 6 jam. Spesialis cuci sneakers, repaint, unyellowing, dan reparasi sol jebol.",
+          "url": "https://laundrysepatusurabaya.com/",
+          "telephone": "+6281319857337",
+          "priceRange": "$$",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Jl. Pacarkembang 5/33",
+            "addressLocality": "Kota Surabaya",
+            "addressRegion": "Jawa Timur",
+            "addressCountry": "ID"
+          },
+          "areaServed": ["Kota Surabaya", "Surabaya Pusat", "Surabaya Timur", "Surabaya Barat", "Surabaya Selatan"],
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.9",
+            "reviewCount": "512"
+          }
+        },
+        {
+          "@type": "WebPage",
+          "@id": "https://laundrysepatusurabaya.com/#webpage",
+          "url": "https://laundrysepatusurabaya.com/",
+          "name": "Jasa Sol Sepatu & Cuci Sneakers Surabaya | 24 Jam",
+          "relatedLink": [
+            "https://dongkrakusaha.com/layanan-jasa-sol-sepatu-surabaya-pacarkembang",
+            "https://dongkrakusaha.com/layanan-tukang-lem-sepatu-gubeng",
+            "https://dongkrakusaha.com/layanan-reparasi-sepatu-jebol-tambaksari",
+            "https://dongkrakusaha.com/layanan-cuci-sepatu-24-jam-surabaya-timur",
+            "https://dongkrakusaha.com/layanan-laundry-sepatu-antar-jemput-surabaya-barat",
+            "https://dongkrakusaha.com/layanan-jasa-repaint-unyellowing-sepatu-surabaya",
+            "https://dongkrakusaha.com/layanan-tempat-cuci-sneakers-surabaya-bergaransi"
+          ]
+        },
+        {
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "Berapa biaya jasa cuci dan sol sepatu di Surabaya?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Biaya cuci (Fast Clean) mulai dari Rp 25.000, sedangkan untuk reparasi seperti sol sepatu dan reglue bergantung pada tingkat kerusakan. Hubungi WA Singhasari Shoes Laundry untuk konsultasi harga terbaik."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Apakah laundry sepatu ini buka 24 jam?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Ya, Singhasari Shoes Laundry buka 24 jam nonstop untuk area Surabaya. Kami menyediakan layanan express 6 jam beres untuk Anda yang membutuhkan sepatu dalam kondisi darurat."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Apakah tersedia layanan antar jemput cuci sepatu di Surabaya?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Tentu. Kami menyediakan layanan laundry sepatu antar jemput dengan tarif ongkir flat Rp 10.000 untuk seluruh wilayah Surabaya Barat, Timur, Selatan, dan Pusat."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+</head>
+<body>
+
+    <header id="header">
+        <div class="wrap">
+            <nav aria-label="Navigasi Utama">
+                <div class="logo">
+                    <span class="mark"></span>
+                    Singhasari Laundry
+                </div>
+                <div class="nav-links">
+                    <a href="#masalah">Mengapa Kami</a>
+                    <a href="#layanan">Daftar Harga</a>
+                    <a href="#testimoni">Ulasan Pelanggan</a>
+                </div>
+                <div class="nav-cta">
+                    <a href="https://wa.me/6281319857337?text=*Halo Admin Singhasari, saya ingin konsultasi reparasi/cuci sepatu. Bisa dibantu?*" target="_blank" rel="noopener noreferrer" class="btn btn-glass" aria-label="Konsultasi Gratis via WhatsApp">
+                        Konsultasi Gratis
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero reveal">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="wrap" style="position: relative; z-index: 1;">
+            <div class="badge">
+                <b>⭐ RATING 4.9/5</b> Spesialis Perawatan Sepatu & Reparasi
+            </div>
+            
+            <h1>
+                LAUNDRY SEPATU SURABAYA <br>
+                BUKA 24 JAM. <span class="grad-text">BISA DITUNGGU!</span>
+            </h1>
+            
+            <p class="lead">
+                Spesialis Cuci Sneakers, Repaint, & Sol Jebol. Solusi Express 6 Jam beres untuk sepatu kesayangan agar terbebas dari bau, bakteri, dan kerusakan parah.
+            </p>
+            
+            <div class="hero-cta">
+                <a href="https://wa.me/6281319857337?text=*Halo Admin Singhasari, saya mau klaim Promo Diskon 10% untuk cuci sepatu / sol. Masih berlaku?*" target="_blank" rel="noopener noreferrer" class="btn btn-glow-border" aria-label="Klaim Diskon via WhatsApp">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true" style="margin-right:6px;"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+                    Ambil Promo Diskon 10%
+                </a>
+                <a href="#layanan" class="btn btn-glass">
+                    Lihat Daftar Harga ↓
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="lazy-render">
+        <section class="section" id="masalah">
+            <div class="wrap">
+                <div class="row reveal">
+                    <div class="copy">
+                        <span class="eyebrow">Jangan Biarkan Rusak Parah</span>
+                        <h2>Sepatu Kotor Merusak Kepercayaan Diri Anda!</h2>
+                        <p>Sepatu yang basah, bau apek, hingga sol yang lepas tidak hanya merusak penampilan, tapi juga berpotensi menyebabkan infeksi jamur pada kaki Anda.</p>
+                        <ul class="ticks">
+                            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg> <span><b>Bau Apek Mengganggu.</b> Kami berantas bakteri penyebab bau hingga ke pori.</span></li>
+                            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg> <span><b>Sibuk Gak Sempat Cuci?</b> Biar tim Singhasari yang jemput ke lokasi Anda.</span></li>
+                        </ul>
+                    </div>
+                    <div class="visual">
+                        <img src="https://images.unsplash.com/photo-1595341888016-a392ef81b7de?q=80&w=800&auto=format&fit=crop" alt="jasa-sol-sepatu-dan-reglue-rapi-surabaya" loading="lazy">
+                    </div>
+                </div>
+
+                <div class="row flip reveal">
+                    <div class="copy">
+                        <span class="eyebrow">Solusi Reparasi Profesional</span>
+                        <h2>Jasa Sol & Lem (Reglue) Terkuat</h2>
+                        <p>Tinggalkan lem murahan yang merusak material asli sepatu Anda. Kami menggunakan lem khusus industri sepatu (reglue) dan teknik jahit sol tersembunyi yang sangat rapi.</p>
+                        <ul class="ticks">
+                            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg> <span><b>Perbaikan Kuat & Rapi.</b> Sepatu jebol kembali kokoh tanpa merusak estetika.</span></li>
+                            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 6L9 17l-5-5"></path></svg> <span><b>Garansi Tahan Lama.</b> Hasil reparasi dijamin awet untuk pemakaian harian.</span></li>
+                        </ul>
+                    </div>
+                    <div class="visual">
+                        <img src="https://images.unsplash.com/photo-1511556820780-d912e42b4980?q=80&w=800&auto=format&fit=crop" alt="tempat-cuci-sneakers-branded-jordan-vans-surabaya" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section reveal" id="keunggulan">
+            <div class="wrap">
+                <div class="sec-head">
+                    <span class="eyebrow">Keunggulan Layanan</span>
+                    <h2>Mengapa Singhasari Pilihan Tepat?</h2>
+                    <p>Alasan mutlak mengapa mahasiswa UNAIR/ITS, pekerja kantoran, hingga kolektor sneakers mempercayakan sepatunya pada kami.</p>
+                </div>
+                
+                <div class="glass-grid">
+                    <div class="glass-card">
+                        <div class="ico">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+                        </div>
+                        <h3>Buka 24 Jam Nonstop</h3>
+                        <p>Butuh cuci sepatu tengah malam untuk acara besok pagi? Kami siap melayani tanpa libur untuk area Surabaya.</p>
+                    </div>
+                    <div class="glass-card">
+                        <div class="ico">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"></path></svg>
+                        </div>
+                        <h3>Bisa Antar Jemput</h3>
+                        <p>Sibuk dengan aktivitas? Gunakan layanan antar jemput dengan flat ongkir 10rb se-Surabaya Timur dan Barat.</p>
+                    </div>
+                    <div class="glass-card">
+                        <div class="ico">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+                        </div>
+                        <h3>Layanan Express 6 Jam</h3>
+                        <p>Pagi dipakai, malam kami sulap bersih! Solusi tercepat untuk menghilangkan bau kaki dadakan pada sepatu Anda.</p>
+                    </div>
+                    <div class="glass-card">
+                        <div class="ico">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                        </div>
+                        <h3>Garansi Cuci Ulang</h3>
+                        <p>Kepuasan pelanggan adalah prioritas. Kami cuci ulang tanpa biaya jika hasil tidak bersih atau bau masih menempel.</p>
+                    </div>
+                    <div class="glass-card">
+                        <div class="ico">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg>
+                        </div>
+                        <h3>Sabun Premium Aman</h3>
+                        <p>Kami menggunakan pembersih khusus (chemical premium) yang sangat aman merawat material sensitif seperti Suede dan Leather.</p>
+                    </div>
+                    <div class="glass-card">
+                        <div class="ico">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2M12 11a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"></path></svg>
+                        </div>
+                        <h3>Bukan Cuma Sepatu</h3>
+                        <p>Kami juga melayani laundry helm, stroller bayi higienis bebas jamur, hingga koper dan jaket kulit kesayangan Anda.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section reveal" id="layanan">
+            <div class="wrap">
+                <div class="sec-head">
+                    <span class="eyebrow">Transparansi Layanan</span>
+                    <h2>Pilihan Layanan & Daftar Harga</h2>
+                    <p>Perawatan profesional dengan harga mahasiswa yang sangat terjangkau. Tidak ada biaya tersembunyi.</p>
+                </div>
+                
+                <div class="pricing-wrap">
+                    <div class="pr-row head">
+                        <div>Nama Layanan</div>
+                        <div>Deskripsi Perawatan</div>
+                        <div>Estimasi Waktu</div>
+                        <div style="text-align: right;">Tarif</div>
+                    </div>
+                    <div class="pr-row">
+                        <div class="pr-name">Fast Clean</div>
+                        <div class="pr-desc">Pembersihan area luar (Upper & Midsole).</div>
+                        <div class="pr-time">1 Hari Beres</div>
+                        <div class="pr-price">Rp 25.000</div>
+                    </div>
+                    <div class="pr-row">
+                        <div class="pr-name">Deep Clean</div>
+                        <div class="pr-desc">Cuci total luar dan dalam hingga bersih tuntas.</div>
+                        <div class="pr-time">3-4 Hari</div>
+                        <div class="pr-price">Rp 50.000</div>
+                    </div>
+                    <div class="pr-row">
+                        <div class="pr-name">Unyellowing</div>
+                        <div class="pr-desc">Memutihkan kembali sol sepatu yang sudah menguning.</div>
+                        <div class="pr-time">5 Hari</div>
+                        <div class="pr-price">Rp 75.000</div>
+                    </div>
+                    <div class="pr-row">
+                        <div class="pr-name">Repaint (Cat Ulang)</div>
+                        <div class="pr-desc">Mengembalikan warna sepatu yang pudar kembali cerah.</div>
+                        <div class="pr-time">7 Hari</div>
+                        <div class="pr-price">Rp 100.000</div>
+                    </div>
+                    <div class="pr-row">
+                        <div class="pr-name">Jahit Sol & Reglue</div>
+                        <div class="pr-desc">Lem sepatu mangap & jahit sol kuat rapi.</div>
+                        <div class="pr-time">3 Hari</div>
+                        <div class="pr-price">Hubungi Admin</div>
+                    </div>
+                </div>
+
+                <div style="text-align: center; margin-top: 40px;">
+                    <a href="https://wa.me/6281319857337?text=*Halo Singhasari Laundry, saya ingin konsultasi masalah sepatu saya. Apa bisa dikirim fotonya dulu?*" target="_blank" rel="noopener noreferrer" class="btn btn-outline-glow" aria-label="Konsultasi Masalah Sepatu">
+                        Konsultasi Masalah Sepatumu Gratis Di Sini
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="testi-section reveal" id="testimoni">
+            <div class="wrap">
+                <div class="sec-head">
+                    <span class="eyebrow">Apa Kata Pelanggan?</span>
+                    <h2>Review Nyata Warga Surabaya</h2>
+                    <p>Dipercaya oleh ratusan mahasiswa dan pekerja di Surabaya untuk urusan perawatan dan perbaikan sepatu.</p>
+                </div>
+            </div>
+            
+            <div class="testi-wrapper">
+                <div class="testi-track">
+                    <div class="testi-card">
+                        <div class="testi-stars">
+                            <svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg>
+                        </div>
+                        <p class="testi-text">"Gila sih, nyuci sepatu tengah malem besoknya dipake buat ngampus di UNAIR bisa beres! Keren Singhasari."</p>
+                        <div class="testi-user">
+                            <img src="https://i.pravatar.cc/100?img=11" alt="Budi" class="testi-avatar" loading="lazy">
+                            <div class="testi-info"><h4>Budi Prasetyo</h4><span>Mahasiswa UNAIR</span></div>
+                        </div>
+                    </div>
+                    
+                    <div class="testi-card">
+                        <div class="testi-stars">
+                            <svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg>
+                        </div>
+                        <p class="testi-text">"Suede Jordanku aman banget cuci di sini, warnanya balik cerah. Antar jemputnya juga on time ke Citraland."</p>
+                        <div class="testi-user">
+                            <img src="https://i.pravatar.cc/100?img=12" alt="Andi" class="testi-avatar" loading="lazy">
+                            <div class="testi-info"><h4>Andi Wijaya</h4><span>Karyawan Surabaya Barat</span></div>
+                        </div>
+                    </div>
+
+                    <div class="testi-card">
+                        <div class="testi-stars">
+                            <svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg>
+                        </div>
+                        <p class="testi-text">"Sol sepatuku jebol parah gara-gara lari, dijahit ulang di sini rapi banget gak kelihatan jahitannya. Kuat pol!"</p>
+                        <div class="testi-user">
+                            <img src="https://i.pravatar.cc/100?img=5" alt="Nisa" class="testi-avatar" loading="lazy">
+                            <div class="testi-info"><h4>Nisa Rahmawati</h4><span>Warga Tambaksari</span></div>
+                        </div>
+                    </div>
+                    
+                    <div class="testi-card">
+                        <div class="testi-stars">
+                            <svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg>
+                        </div>
+                        <p class="testi-text">"Nyoba laundry stroller bayi sekalian helm. Bersih banget dan wanginya tahan lama. Gak takut jamur lagi."</p>
+                        <div class="testi-user">
+                            <img src="https://i.pravatar.cc/100?img=9" alt="Ibu Rina" class="testi-avatar" loading="lazy">
+                            <div class="testi-info"><h4>Ibu Rina</h4><span>Ibu Rumah Tangga</span></div>
+                        </div>
+                    </div>
+
+                    <div class="testi-card">
+                        <div class="testi-stars">
+                            <svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg>
+                        </div>
+                        <p class="testi-text">"Gila sih, nyuci sepatu tengah malem besoknya dipake buat ngampus di UNAIR bisa beres! Keren Singhasari."</p>
+                        <div class="testi-user">
+                            <img src="https://i.pravatar.cc/100?img=11" alt="Budi" class="testi-avatar" loading="lazy">
+                            <div class="testi-info"><h4>Budi Prasetyo</h4><span>Mahasiswa UNAIR</span></div>
+                        </div>
+                    </div>
+                    
+                    <div class="testi-card">
+                        <div class="testi-stars">
+                            <svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg><svg aria-hidden="true"><path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/></svg>
+                        </div>
+                        <p class="testi-text">"Suede Jordanku aman banget cuci di sini, warnanya balik cerah. Antar jemputnya juga on time ke Citraland."</p>
+                        <div class="testi-user">
+                            <img src="https://i.pravatar.cc/100?img=12" alt="Andi" class="testi-avatar" loading="lazy">
+                            <div class="testi-info"><h4>Andi Wijaya</h4><span>Karyawan Surabaya Barat</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section reveal" id="faq">
+            <div class="wrap">
+                <div class="sec-head">
+                    <span class="eyebrow">AEO / FAQ SINGKAT</span>
+                    <h2>Tanya Jawab Seputar Layanan</h2>
+                </div>
+                <div class="faq">
+                    <details>
+                        <summary>Berapa estimasi biaya jasa cuci sepatu di Surabaya?</summary>
+                        <div class="a">Harga cuci sepatu kami mulai dari Rp 25.000 untuk layanan Fast Clean. Untuk reparasi sol jebol, reglue, atau repaint, harganya bergantung pada tingkat kerusakan. Silakan kirimkan foto sepatu Anda ke admin WhatsApp kami untuk estimasi harga instan.</div>
+                    </details>
+                    <details>
+                        <summary>Apakah layanan ini benar-benar buka 24 jam?</summary>
+                        <div class="a">Benar! Kami beroperasi penuh 24 jam, sangat cocok untuk Anda yang butuh jasa cuci sepatu dadakan di tengah malam dengan layanan express beres dalam 6 jam.</div>
+                    </details>
+                    <details>
+                        <summary>Apakah melayani antar jemput cuci sepatu di seluruh Surabaya?</summary>
+                        <div class="a">Ya, kami menyediakan kurir antar jemput khusus dengan tarif flat (merata) hanya Rp 10.000 untuk menjangkau seluruh area Surabaya Pusat, Timur, Barat, hingga Selatan. Tinggal share lokasi, kurir kami langsung meluncur!</div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section class="section reveal">
+            <div class="wrap">
+                <div class="cta-box">
+                    <h2>Sepatu Kinclong Tanpa Repot!</h2>
+                    <p>Jangan tunggu noda membandel merusak serat sepatu Anda. Jadwalkan pick-up kurir atau konsultasikan perbaikan sol sepatu kesayangan Anda sekarang.</p>
+                    <div class="hero-cta">
+                        <a href="https://wa.me/6281319857337?text=*Halo Admin Singhasari, saya butuh layanan jasa cuci sepatu / sol sepatu segera. Tolong jadwalkan penjemputan...*" target="_blank" rel="noopener noreferrer" class="btn btn-gradient-shadow" aria-label="Konsultasi WhatsApp Tim Singhasari">
+                            💬 Chat Admin 24 Jam
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section reveal" id="lokasi" style="padding-top: 40px; padding-bottom: 0px;">
+            <div class="wrap">
+                <div class="sec-head" style="margin-bottom: 50px;">
+                    <span class="eyebrow">Pusat Operasional</span>
+                    <h2>Markas Utama Singhasari Laundry</h2>
+                    <p>Berpusat di Pacarkembang, kurir antar-jemput kami siap menerjang melayani kebutuhan cuci sepatu Anda se-Surabaya.</p>
+                </div>
+                
+                <div class="shot" style="margin-top: 0;">
+                    <div class="frame">
+                        <div class="frame-bar">
+                            <i></i><i></i><i></i>
+                            <span>Akses Google Maps / Singhasari Shoes Laundry Surabaya</span>
+                        </div>
+                        <div class="app-main">
+                            <a href="https://maps.app.goo.gl/MKSosfQwfY9UWYYVA " target="_blank" rel="noopener noreferrer" aria-label="Buka Peta Lokasi di Google Maps">
+                                <img src="Peta-lokasi-operasional-jasa-bobok-coring-potong-bongkar-beton-baja-bandung.webp" alt="Peta Jangkauan Layanan Antar Jemput Laundry Sepatu Surabaya" width="1040" height="600" loading="lazy">
+                                <div class="map-overlay">
+                                    <div class="btn btn-outline-glow" style="pointer-events:none; border-radius: 50px; font-weight: 700;">📍 Buka Rute di Google Maps ↗</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="reveal">
+            <div class="wrap">
+                <div class="foot">
+                    <div>
+                        <div class="logo">
+                            <span class="mark"></span>
+                            Singhasari Laundry
+                        </div>
+                        <p>Pusat cuci dan reparasi sepatu premium terpercaya. Melayani cuci sneakers, repaint, unyellowing, hingga jahit sol bergaransi.</p>
+                        <p style="margin-top:24px; color:#fff; font-size: 15px;">
+                            Jl. Pacarkembang 5/33<br>
+                            Kota Surabaya<br>
+                            Jawa Timur<br><br>
+                            <b>Telepon / WA:</b> <a href="https://wa.me/6281319857337" rel="noopener noreferrer" target="_blank" style="display:inline; color:var(--accent-3); font-weight: 700; font-size: 16px;">0813-1985-7337</a><br>
+                            <b>IG:</b> <a href="https://instagram.com/singhasari.cleanandrepair" target="_blank" rel="noopener noreferrer" style="display:inline; color:var(--accent-3);">@singhasari.cleanandrepair</a>
+                        </p>
+                    </div>
+                    <div>
+                        <h4>Area Prioritas Makro</h4>
+                        <a href="#">Surabaya Pusat</a>
+                        <a href="#">Surabaya Timur</a>
+                        <a href="#">Surabaya Barat</a>
+                        <a href="#">Surabaya Selatan</a>
+                    </div>
+                    <div>
+                        <h4>Target Wilayah Mikro</h4>
+                        <a href="#">Pacarkembang</a>
+                        <a href="#">Tambaksari & Gubeng</a>
+                        <a href="#">Kampus UNAIR & ITS</a>
+                        <a href="#">Citraland & Graha Famili</a>
+                    </div>
+                    <div>
+                        <h4>Pencarian Terkait (Tags)</h4>
+                        <div class="tags">
+                            <span>Laundry Sepatu Surabaya</span>
+                            <span>Cuci Sepatu 24 Jam</span>
+                            <span>Jasa Sol Sepatu Surabaya</span>
+                            <span>Tempat Repaint Sepatu</span>
+                            <span>Reparasi Sepatu Jebol</span>
+                            <span>Cuci Sneakers Terdekat</span>
+                            <span>Laundry Helm & Stroller</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="foot-bot">
+                    <span>SEO & Web Architecture by <a href="https://ciledugpromo.biz.id" target="_blank" rel="nofollow noopener noreferrer" style="display:inline; text-decoration:underline; font-weight: 600; color: #fff;">ciledugpromo.biz.id</a></span>
+                    <span>© 2026 Singhasari Shoes Laundry. All rights reserved.</span>
+                </div>
+            </div>
+        </footer>
+
+    </div> <a href="https://wa.me/6281319857337?text=*Halo Admin Singhasari, saya butuh layanan jasa cuci / reparasi sepatu segera...*" target="_blank" rel="noopener noreferrer" class="sticky-cta" aria-label="Chat WhatsApp Darurat">
+        <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+        </svg>
+        Pesan Layanan Antar Jemput
+    </a>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const observerOptions = { root: null, rootMargin: "0px", threshold: 0.1 };
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => { if (entry.isIntersecting) { entry.target.classList.add('in-view'); } });
+            }, observerOptions);
+            document.querySelectorAll('.reveal').forEach((el) => { observer.observe(el); });
+        });
+    </script>
+</body>
+</html>
